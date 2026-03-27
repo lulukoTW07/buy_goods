@@ -1,5 +1,5 @@
 // =============================================
-// app.js — 二手良品集 主程式
+// app.js
 // =============================================
 
 const STORAGE_KEY = 'secondhand_products';
@@ -363,22 +363,41 @@ function escHtml(str) {
 
 // ── Events ─────────────────────────────────
 function bindEvents() {
-  // Admin toggle
-  document.getElementById('adminToggle').addEventListener('click', () => {
-    adminMode = !adminMode;
-    const panel = document.getElementById('adminPanel');
-    const btn = document.getElementById('adminToggle');
-    if (adminMode) {
-      panel.style.display = 'block';
-      btn.classList.add('active');
-      document.body.classList.add('admin-mode');
-    } else {
-      panel.style.display = 'none';
-      btn.classList.remove('active');
-      document.body.classList.remove('admin-mode');
-    }
-    renderProducts();
-  });
+  // 幫每個按鈕加上 if 判斷，有找到按鈕才綁定事件
+  const adminToggle = document.getElementById('adminToggle');
+  if (adminToggle) {
+    adminToggle.addEventListener('click', () => {
+      adminMode = !adminMode;
+      const panel = document.getElementById('adminPanel');
+      if (adminMode) {
+        panel.style.display = 'block';
+        adminToggle.classList.add('active');
+        document.body.classList.add('admin-mode');
+      } else {
+        panel.style.display = 'none';
+        adminToggle.classList.remove('active');
+        document.body.classList.remove('admin-mode');
+      }
+      renderProducts();
+    });
+  }
+
+  const addProductBtn = document.getElementById('addProductBtn');
+  if (addProductBtn) addProductBtn.addEventListener('click', () => openEditModal(null));
+
+  const manageTagsBtn = document.getElementById('manageTagsBtn');
+  if (manageTagsBtn) manageTagsBtn.addEventListener('click', openTagsModal);
+
+  const exportBtn = document.getElementById('exportBtn');
+  if (exportBtn) exportBtn.addEventListener('click', exportData);
+
+  const importFile = document.getElementById('importFile');
+  if (importFile) {
+    importFile.addEventListener('change', (e) => {
+      if (e.target.files[0]) importData(e.target.files[0]);
+      e.target.value = '';
+    });
+  }
 
   // Add product
   document.getElementById('addProductBtn').addEventListener('click', () => openEditModal(null));
