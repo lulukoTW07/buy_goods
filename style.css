@@ -428,6 +428,7 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.4;
+  color: #5e4e26;
 }
 .modal-meta {
   display: grid;
@@ -452,7 +453,7 @@ body {
 .meta-item span:last-child {
   font-size: 0.92rem;
   font-weight: 600;
-  color: var(--text);
+  color: #7d614c;
 }
 .modal-desc {
   font-size: 0.9rem;
