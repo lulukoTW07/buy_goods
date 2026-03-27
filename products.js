@@ -19,7 +19,7 @@ var SAMPLE_PRODUCTS = [
     origin: "日本",
     purchaseDate: "2022-11",
     damage: "輕微使用痕跡",
-    tags: ["FGO", "3C"],
+    tags: ["FGO", "二手"],
     dateAdded: "2024-03-10",
     stores: [
       { name: "蝦皮賣場", url: "https://shopee.tw", type: "shopee" },
