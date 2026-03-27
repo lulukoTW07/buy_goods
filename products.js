@@ -19,7 +19,7 @@ var SAMPLE_PRODUCTS = [
     origin: "日本",
     purchaseDate: "2022-11",
     damage: "輕微使用痕跡",
-    tags: ["相機", "3C"],
+    tags: ["FGO", "二手"],
     dateAdded: "2024-03-10",
     stores: [
       { name: "蝦皮賣場", url: "https://shopee.tw", type: "shopee" },
@@ -34,7 +34,7 @@ var SAMPLE_PRODUCTS = [
     origin: "台灣",
     purchaseDate: "2023-05",
     damage: "全新未拆",
-    tags: ["書籍"],
+    tags: ["手帳"],
     dateAdded: "2024-03-12",
     stores: [
       { name: "蝦皮賣場", url: "https://shopee.tw", type: "shopee" }

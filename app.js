@@ -428,6 +428,12 @@ function bindEvents() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeAllModals();
   });
+
+const addBtn = document.getElementById('addProductBtn');
+if (addBtn) {
+    addBtn.addEventListener('click', () => { /* 你的邏輯 */ });
+}
+  
 }
 
 // ── Start ───────────────────────────────────
