@@ -3,26 +3,26 @@ name: Deploy Clean Site
 on:
   push:
     branches:
-      - source  # 當你推送程式碼到 source 分支時觸發
+      - source  # 只有當 source 分支有變動時才執行
+
+permissions:
+  contents: write  # 重要：給予機器人寫入 main 分支的權限
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升級到 v4，解決黃色警告訊息
 
-      - name: Remove Admin UI and Logic
+      - name: Remove Admin UI
         run: |
-          # 1. 刪除 index.html 中從 admin-start 到 admin-end 的所有內容
+          # 刪除 HTML 中的管理面板區塊
           sed -i '//,//d' index.html
-          
-          # 2. (選用) 如果你想連 style.css 裡的 .admin-panel 樣式都刪掉，可以在 CSS 裡也加標記
-          # sed -i '/\/* admin-css-start *\//,/\/* admin-css-end *\//d' style.css
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: .        # 部署當前資料夾所有內容
-          branch: main     # 自動推送到 main 分支 (買家看到的網頁)
-          clean: true      # 確保目標分支是乾淨更新
+          folder: .        # 部署當前資料夾
+          branch: main     # 部署到 main 分支
+          clean: true
