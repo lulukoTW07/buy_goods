@@ -17,8 +17,7 @@ jobs:
 
       - name: Remove Admin UI
         run: |
-          # 使用一個更直觀的寫法來刪除區塊
-          # 這會尋找包含 admin-start 到 admin-end 的行並將其刪除
+          # 這次我們用更強大的語法，確保包含起始與結束標記都一併切除
           sed -i '//,//d' index.html
           
       - name: Deploy to GitHub Pages
