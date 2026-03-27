@@ -460,6 +460,7 @@ body {
   color: var(--text-muted);
   line-height: 1.7;
   margin-bottom: 24px;
+  white-space: pre-wrap; /* 商品描述換行 */
 }
 
 /* Store Buttons */
