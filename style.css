@@ -10,7 +10,7 @@
   --border: #d8cfbc;
   --accent: #b85c3a;
   --accent2: #8a7a62;
-  --text: #2a2218;
+  --text: #ccbca7;
   --text-muted: #7a6e5e;
   --tag-bg: #e8dfd0;
   --tag-active: #b85c3a;
@@ -65,7 +65,7 @@ body {
   font-size: 1.45rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: #f5f0e8;
+  color: #522d04;
 }
 .tagline {
   font-size: 0.72rem;
