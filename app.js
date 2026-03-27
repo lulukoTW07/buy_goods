@@ -17,7 +17,95 @@ function init() {
   loadData();
   renderTagFilters();
   renderProducts();
+
+  // ── 新增：管理權限檢查機關 ──
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('admin')) {
+    adminMode = true; // 強制開啟管理模式變數
+    document.body.classList.add('admin-mode');
+    
+    // 顯示被隱藏的按鈕與面板（以防萬一你在本地測試時需要它們）
+    const adminToggle = document.getElementById('adminToggle');
+    const adminPanel = document.getElementById('adminPanel');
+    if (adminToggle) adminToggle.style.display = 'block';
+    if (adminPanel) adminPanel.style.display = 'block';
+    
+    // 重新渲染商品，讓「編輯」按鈕出現在卡片上
+    renderProducts();
+  }
+  // ──────────────────────────
+
   bindEvents();
+}
+
+function bindEvents() {
+  // 1. 管理切換按鈕 (⚙ 管理)
+  const adminToggle = document.getElementById('adminToggle');
+  if (adminToggle) {
+    adminToggle.addEventListener('click', () => {
+      adminMode = !adminMode;
+      const panel = document.getElementById('adminPanel');
+      if (adminMode) {
+        if (panel) panel.style.display = 'block';
+        adminToggle.classList.add('active');
+        document.body.classList.add('admin-mode');
+      } else {
+        if (panel) panel.style.display = 'none';
+        adminToggle.classList.remove('active');
+        document.body.classList.remove('admin-mode');
+      }
+      renderProducts();
+    });
+  }
+
+  // 2. 新增商品按鈕
+  const addProductBtn = document.getElementById('addProductBtn');
+  if (addProductBtn) {
+    addProductBtn.addEventListener('click', () => openEditModal(null));
+  }
+
+  // 3. 管理標籤按鈕
+  const manageTagsBtn = document.getElementById('manageTagsBtn');
+  if (manageTagsBtn) {
+    manageTagsBtn.addEventListener('click', openTagsModal);
+  }
+
+  // 4. 匯出資料按鈕 (重要：這是你更新 source 分支的關鍵)
+  const exportBtn = document.getElementById('exportBtn');
+  if (exportBtn) {
+    exportBtn.addEventListener('click', exportData);
+  }
+
+  // 5. 匯入資料功能
+  const importFile = document.getElementById('importFile');
+  if (importFile) {
+    importFile.addEventListener('change', (e) => {
+      if (e.target.files[0]) importData(e.target.files[0]);
+      e.target.value = '';
+    });
+  }
+
+  // --- 以下是原本買家也會用到的功能，不變 ---
+  document.getElementById('addStoreBtn').addEventListener('click', () => addStoreEntry({}, -1));
+  document.getElementById('saveProductBtn').addEventListener('click', saveProduct);
+  document.getElementById('cancelEditBtn').addEventListener('click', closeAllModals);
+  document.getElementById('addTagBtn').addEventListener('click', addTag);
+  document.getElementById('newTagInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') addTag(); });
+  document.getElementById('modalClose').addEventListener('click', closeAllModals);
+  document.getElementById('editClose').addEventListener('click', closeAllModals);
+  document.getElementById('tagsClose').addEventListener('click', closeAllModals);
+
+  ['productModal', 'editModal', 'tagsModal'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('click', (e) => { if (e.target.id === id) closeAllModals(); });
+    }
+  });
+
+  document.getElementById('searchInput').addEventListener('input', renderProducts);
+  document.getElementById('sortSelect').addEventListener('change', renderProducts);
+
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAllModals(); });
 }
 
 function loadData() {
