@@ -18,7 +18,7 @@ jobs:
       - name: Remove Admin UI
         run: |
           # 這次我們用更強大的語法，確保包含起始與結束標記都一併切除
-          sed -i '/admin-panel/,/display:none/d' index.html
+          sed -i '/admin-start/,/admin-start/d' index.html
           
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
