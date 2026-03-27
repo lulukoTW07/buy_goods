@@ -1,0 +1,23 @@
+name: Deploy Clean Site
+on:
+  push:
+    branches:
+      - source  # 當你推送到 source 分支時觸發
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Remove Admin UI
+        run: |
+          # 使用 sed 指令，自動刪除 到 之間的所有內容
+          sed -i '//,//d' index.html
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .        # 要部署的資料夾
+          branch: gh-pages # 部署到這個分支
