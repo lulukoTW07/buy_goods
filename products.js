@@ -40,7 +40,7 @@ var SAMPLE_PRODUCTS = [
       "purchaseDate": "-",
       "damage": "輕微使用痕跡",
       "tags": ["聯絡賣家plurk@fly811"],
-      "dateAdded": "2024-03-10",
+      "dateAdded": "1900-01-01",
       "stores": [
         {
           "name": "噗浪",
@@ -60,7 +60,7 @@ var SAMPLE_PRODUCTS = [
       "tags": [
         "二手","週邊",
       ],
-      "dateAdded": "2024-03-12",
+      "dateAdded": "2026-3-29",
       "stores": [
         {
           "name": "賣貨便",
@@ -80,7 +80,7 @@ var SAMPLE_PRODUCTS = [
       "tags": [
         "手帳"
       ],
-      "dateAdded": "2024-03-15",
+      "dateAdded": "2026-03-19",
       "stores": [
         {
           "name": "賣貨便",
