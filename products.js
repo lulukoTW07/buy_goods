@@ -51,7 +51,7 @@ var SAMPLE_PRODUCTS = [
     },
     {
       "id": "p002",
-      "name": "明日方舟-朝隴山山兔毛絨玩偶-凱爾希",
+      "name": "明日方舟-朝隴山山兔毛絨玩偶-凱爾希 $200",
       "image": "https://images.plurk.com/49k0cVqBlgQWhzAUcLJiKp.jpg",
       "description": "拆過一次，後來就放在袋子裡沒拿出來過了。",
       "origin": "中國",
