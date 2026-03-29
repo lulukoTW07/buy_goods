@@ -6,10 +6,10 @@
 
 // 可用標籤（可在管理模式中新增/刪除）
 var DEFAULT_TAGS = [
-  "FGO","驅魔","手帳","紙膠帶和貼紙","週邊","聯絡賣家plurk@fly811","交換",
+  "FGO",　"驅魔",　"手帳",　"紙膠帶和貼紙",　"週邊",　"聯絡賣家plurk@fly811",　"交換"
 ];
 
-// 商品資料範例
+// 商品資料
 var SAMPLE_PRODUCTS = [
     {
       "id": "p1774820497393",
@@ -33,7 +33,7 @@ var SAMPLE_PRODUCTS = [
       ]
     },
       {
-      "id": "p1236",
+      "id": "DGM222",
       "name": "【純交換】驅魔少年のび猫壓克力牌交換",
       "image": "https://images.plurk.com/1jVl5RJP7ma6w63usUH8Yr.png ",
       "description": "莉娜利換羅特、亞連換涅亞、帝奇換師匠",
