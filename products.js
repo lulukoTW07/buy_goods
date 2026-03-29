@@ -198,5 +198,5 @@ var SAMPLE_PRODUCTS = [
           "type": "convenient"
         }
       ]
-    }
+    },
   ],
