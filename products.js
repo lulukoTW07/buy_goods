@@ -6,7 +6,7 @@
 
 // 可用標籤（可在管理模式中新增/刪除）
 var DEFAULT_TAGS = [
-  "FGO","驅魔","手帳","紙膠帶和貼紙","週邊","聯絡賣家plurk@fly811","交換"
+  "FGO","驅魔","手帳","紙膠帶和貼紙","週邊","聯絡賣家plurk@fly811","交換",
 ];
 
 // 商品資料範例
@@ -202,7 +202,7 @@ var SAMPLE_PRODUCTS = [
       "id": "p003",
       "name": "旅人筆記本（橄欖）$1000",
       "image": "https://images.plurk.com/39xzyFDj85hRQCCUyeZdeW.jpg",
-      "description": "去年在成田機場多買的，賣貨便運費會加35請注意～",
+      "description": "去年在成田機場多買的，尚未開賣場，有需要請噗浪私訊～",
       "origin": "日本",
       "purchaseDate": "2026-08",
       "damage": "近全新",
@@ -212,9 +212,9 @@ var SAMPLE_PRODUCTS = [
       "dateAdded": "2026-03-19",
       "stores": [
         {
-          "name": "賣貨便",
-          "url": "https://buy.line.me",
-          "type": "convenient"
+          "name": "噗浪",
+          "url": "https://www.plurk.com/fly811",
+          "type": "default"
         }
       ]
     },
