@@ -199,4 +199,4 @@ var SAMPLE_PRODUCTS = [
         }
       ]
     },
-  ],
+  ];
