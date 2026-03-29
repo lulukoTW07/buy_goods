@@ -6,7 +6,7 @@
 
 // 可用標籤（可在管理模式中新增/刪除）
 var DEFAULT_TAGS = [
-  "FGO","驅魔","二手","全新","手帳","紙膠帶和貼紙","週邊","聯絡賣家plurk@fly811",
+  "FGO","驅魔","二手","全新","手帳","紙膠帶和貼紙","週邊","聯絡賣家plurk@fly811","交換"
 ];
 
 // 商品資料範例
@@ -29,6 +29,27 @@ var SAMPLE_PRODUCTS = [
           "name": "賣貨便",
           "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
           "type": "convenient"
+        }
+      ]
+    },
+      {
+      "id": "p1774820497393",
+      "name": "【純交換】驅魔少年のび猫壓克力牌交換",
+      "image": "https://images.plurk.com/1jVl5RJP7ma6w63usUH8Yr.png ",
+      "description": "莉娜利換羅特、亞連換涅亞、帝奇換師匠",
+      "origin": "",
+      "purchaseDate": "2019-12",
+      "damage": "輕微使用痕跡",
+      "tags": [
+        "驅魔",
+        "交換"
+      ],
+      "dateAdded": "2026-03-29",
+      "stores": [
+        {
+          "name": "噗浪",
+          "url": "https://www.plurk.com/fly811",
+          "type": "default"
         }
       ]
     },
@@ -133,7 +154,7 @@ var SAMPLE_PRODUCTS = [
       "dateAdded": "2026-03-27",
       "stores": [
         {
-          "name": "其他賣場",
+          "name": "噗浪",
           "url": "https://www.plurk.com/fly811",
           "type": "default"
         }
