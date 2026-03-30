@@ -13,7 +13,7 @@ var DEFAULT_TAGS = [
 var SAMPLE_PRODUCTS = [
    {
       "id": "p1774870339037",
-      "name": "【純交換】",
+      "name": "【純交換】星之子第二彈_光波紫換任一第一彈星之子",
       "image": "https://images.plurk.com/1tX0sJUrEmWxsWGlkYuQeW.jpg",
       "description": "第二彈光波紫換第一彈任一個～",
       "origin": "",
@@ -25,7 +25,7 @@ var SAMPLE_PRODUCTS = [
       "dateAdded": "2026-03-30",
       "stores": [
         {
-          "name": "其他賣場",
+          "name": "噗浪",
           "url": "https://www.plurk.com/fly811",
           "type": "default"
         }
@@ -35,9 +35,9 @@ var SAMPLE_PRODUCTS = [
       "id": "p1774870088465",
       "name": "FGO嘉年華咖啡廳迷你立牌 $50",
       "image": "https://images.plurk.com/b4U52oc8ezGutfEzhyzoI.jpg",
-      "description": "注意：商品的珠珠鍊已遺失，有需要請思考後再下單。",
+      "description": "注意：商品的珠珠鍊和外包裝已遺失，有需要請思考後再下單。",
       "origin": "",
-      "purchaseDate": "",
+      "purchaseDate": "2022-05",
       "damage": "輕微使用痕跡",
       "tags": [
         "FGO","週邊"
