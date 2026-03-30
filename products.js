@@ -6,7 +6,7 @@
 
 // 可用標籤（可在管理模式中新增/刪除）
 var DEFAULT_TAGS = [
-  "FGO",　"驅魔",　"手帳",　"紙膠帶和貼紙",　"週邊",　"聯絡賣家plurk@fly811",　"交換"
+  "FGO",　"驅魔",　"手帳",　"紙膠帶和貼紙",　"週邊",　"聯絡賣家plurk@fly811",　"交換", "遊戲片"
 ];
 
 // 商品資料
@@ -19,7 +19,9 @@ var SAMPLE_PRODUCTS = [
       "origin": "",
       "purchaseDate": "",
       "damage": "近全新",
-      "tags": [],
+      "tags": [
+        "交換"
+      ],
       "dateAdded": "2026-03-30",
       "stores": [
         {
@@ -38,7 +40,7 @@ var SAMPLE_PRODUCTS = [
       "purchaseDate": "",
       "damage": "輕微使用痕跡",
       "tags": [
-        "FGO"
+        "FGO","週邊"
       ],
       "dateAdded": "2026-03-30",
       "stores": [
@@ -58,7 +60,7 @@ var SAMPLE_PRODUCTS = [
       "purchaseDate": "2022-05",
       "damage": "近全新",
       "tags": [
-        "FGO"
+        "FGO","週邊"
       ],
       "dateAdded": "2026-03-30",
       "stores": [
@@ -77,7 +79,9 @@ var SAMPLE_PRODUCTS = [
       "origin": "",
       "purchaseDate": "2022-6",
       "damage": "輕微使用痕跡",
-      "tags": [],
+      "tags": [
+        "遊戲片"
+      ],
       "dateAdded": "2026-03-30",
       "stores": [
         {
