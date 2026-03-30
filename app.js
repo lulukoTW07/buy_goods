@@ -127,21 +127,13 @@ function loadData() {
     // 清除可能殘留的舊標籤緩存
     if (!isEditing) localStorage.removeItem(TAGS_KEY);
   }
-  // 2. 核心改動：判斷是否要讀取暫存資料
-  const urlParams = new URLSearchParams(window.location.search);
-  const isEditing = urlParams.has('admin'); // 檢查是不是管理者模式
-  const savedProducts = localStorage.getItem(STORAGE_KEY);
 
+  // 2. 商品載入邏輯（維持我們上次改好的部分）
+  const savedProducts = localStorage.getItem(STORAGE_KEY);
   if (isEditing && savedProducts) {
-    // 只有在 ?admin 模式下，才讀取你剛剛「新增但還沒 Push」的暫存資料
     products = JSON.parse(savedProducts);
-    console.log("管理模式：讀取暫存資料");
   } else {
-    // 一般買家（或你更新 GitHub 後）永遠讀取 products.js 裡的最新資料
     products = SAMPLE_PRODUCTS.map(p => ({ ...p }));
-    console.log("一般模式：讀取 GitHub 最新資料");
-    
-    // 順便清除舊的 LocalStorage 緩存，避免以後衝突
     if (!isEditing) localStorage.removeItem(STORAGE_KEY);
   }
 }
