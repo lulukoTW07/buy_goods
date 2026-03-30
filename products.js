@@ -283,7 +283,7 @@ var SAMPLE_PRODUCTS = [
     {
       "id": "p002",
       "name": "明日方舟-朝隴山山兔毛絨玩偶-凱爾希 $300",
-      "image": "https://images.plurk.com/49k0cVqBlgQWhzAUcLJiKp.jpg",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100606763.jpg",
       "description": "拆過一次，後來就放在袋子裡沒拿出來過了。\n賣貨便有詳細說明。",
       "origin": "中國",
       "purchaseDate": "2019年",
@@ -295,7 +295,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
           "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100606763.jpg",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
           "type": "convenient"
         }
       ]
