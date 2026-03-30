@@ -11,6 +11,82 @@ var DEFAULT_TAGS = [
 
 // 商品資料
 var SAMPLE_PRODUCTS = [
+   {
+      "id": "p1774870339037",
+      "name": "【純交換】",
+      "image": "https://images.plurk.com/1tX0sJUrEmWxsWGlkYuQeW.jpg",
+      "description": "第二彈光波紫換第一彈任一個～",
+      "origin": "",
+      "purchaseDate": "",
+      "damage": "近全新",
+      "tags": [],
+      "dateAdded": "2026-03-30",
+      "stores": [
+        {
+          "name": "其他賣場",
+          "url": "https://www.plurk.com/fly811",
+          "type": "default"
+        }
+      ]
+    },
+    {
+      "id": "p1774870088465",
+      "name": "FGO嘉年華咖啡廳迷你立牌 $50",
+      "image": "https://images.plurk.com/b4U52oc8ezGutfEzhyzoI.jpg",
+      "description": "注意：商品的珠珠鍊已遺失，有需要請思考後再下單。",
+      "origin": "",
+      "purchaseDate": "",
+      "damage": "輕微使用痕跡",
+      "tags": [
+        "FGO"
+      ],
+      "dateAdded": "2026-03-30",
+      "stores": [
+        {
+          "name": "賣貨便",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "type": "convenient"
+        }
+      ]
+    },
+    {
+      "id": "p1774870006197",
+      "name": "FGO冠位時間殿X臺灣安美咖啡克羅塔only恩奇都 $50",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301101689921.jpg",
+      "description": "",
+      "origin": "",
+      "purchaseDate": "2022-05",
+      "damage": "近全新",
+      "tags": [
+        "FGO"
+      ],
+      "dateAdded": "2026-03-30",
+      "stores": [
+        {
+          "name": "賣貨便",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "type": "convenient"
+        }
+      ]
+    },
+    {
+      "id": "p1774869934661",
+      "name": "switch1刀劍亂舞無雙 $500",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301101679582.jpg",
+      "description": "可以拍刀男的胯下的照片的遊戲",
+      "origin": "",
+      "purchaseDate": "2022-6",
+      "damage": "輕微使用痕跡",
+      "tags": [],
+      "dateAdded": "2026-03-30",
+      "stores": [
+        {
+          "name": "賣貨便",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "type": "convenient"
+        }
+      ]
+    },
     {
       "id": "p1774820497393",
       "name": "FGO轉蛋橡膠吊飾 $100",
