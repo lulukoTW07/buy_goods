@@ -11,6 +11,28 @@ var DEFAULT_TAGS = [
 
 // 商品資料
 var SAMPLE_PRODUCTS = [
+
+   {
+      "id": "mm01",
+      "name": "神祕信使聯名框影咖啡V飯友 $100",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301101711675.jpg",
+      "description": "",
+      "origin": "未知",
+      "purchaseDate": "2024年左右",
+      "damage": "輕微使用痕跡",
+      "tags": [
+        "周邊"
+      ],
+      "dateAdded": "2026-03-30",
+      "stores": [
+        {
+          "name": "賣貨便",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "type": "convenient"
+        }
+      ]
+    },
+  
    {
       "id": "p1774870339037",
       "name": "【純交換】星之子第二彈_光波紫換任一第一彈星之子",
@@ -178,7 +200,7 @@ var SAMPLE_PRODUCTS = [
     {
       "id": "p1774820107614",
       "name": "FGO和三麗鷗合作第二彈軟膠吊飾only狂狗 $100",
-      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100604024.jpg",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100604305.jpg",
       "description": "臉部有黑點污漬，外包裝有些微損傷。",
       "origin": "日本",
       "purchaseDate": "忘了（？）",
@@ -200,7 +222,7 @@ var SAMPLE_PRODUCTS = [
     {
       "id": "p1774819994462",
       "name": "驅魔少年JS眼睛鑰匙圈only林克 $100",
-      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100605386.jpg",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100605521.jpg",
       "description": "26年3月初買的，只拆過一次。",
       "origin": "日本",
       "purchaseDate": "2026-03",
@@ -273,7 +295,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
           "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "url": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100606763.jpg",
           "type": "convenient"
         }
       ]
