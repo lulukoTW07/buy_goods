@@ -38,6 +38,7 @@ function init() {
   bindEvents();
 }
 
+
 function bindEvents() {
   // 1. 管理切換按鈕 (⚙ 管理)
   const adminToggle = document.getElementById('adminToggle');
@@ -109,10 +110,23 @@ function bindEvents() {
 }
 
 function loadData() {
-  // 1. 載入標籤（優先讀取 LocalStorage，若無則讀取預設）
-  const savedTags = localStorage.getItem(TAGS_KEY);
-  tags = savedTags ? JSON.parse(savedTags) : [...DEFAULT_TAGS];
+  const urlParams = new URLSearchParams(window.location.search);
+  const isEditing = urlParams.has('admin');
 
+  // 1. 修正標籤載入邏輯
+  const savedTags = localStorage.getItem(TAGS_KEY);
+  if (isEditing && savedTags) {
+    // 只有在管理模式且有暫存時，才讀取舊標籤（方便你繼續編輯）
+    tags = JSON.parse(savedTags);
+    console.log("管理模式：讀取暫存標籤");
+  } else {
+    // 一般模式或無暫存時，永遠讀取 products.js 裡的 DEFAULT_TAGS
+    tags = [...DEFAULT_TAGS];
+    console.log("一般模式：讀取 GitHub 最新標籤");
+    
+    // 清除可能殘留的舊標籤緩存
+    if (!isEditing) localStorage.removeItem(TAGS_KEY);
+  }
   // 2. 核心改動：判斷是否要讀取暫存資料
   const urlParams = new URLSearchParams(window.location.search);
   const isEditing = urlParams.has('admin'); // 檢查是不是管理者模式
