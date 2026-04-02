@@ -14,7 +14,7 @@ var SAMPLE_PRODUCTS = [
 
    {
       "id": "mm01",
-      "name": "神祕信使聯名框影咖啡V飯友 $100",
+      "name": "神祕信使聯名框影咖啡V飯友 $50",
       "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301101711675.jpg",
       "description": "",
       "origin": "未知",
@@ -115,7 +115,7 @@ var SAMPLE_PRODUCTS = [
     },
     {
       "id": "p1774820497393",
-      "name": "FGO轉蛋橡膠吊飾 $100",
+      "name": "FGO轉蛋橡膠吊飾 $100、$50",
       "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100602011.jpg",
       "description": "伊絲塔跟安娜因為一直放在蛋殼裡因此凹損嚴重故不賣，有需要請私訊。",
       "origin": "？",
