@@ -6,12 +6,36 @@
 
 // 可用標籤（可在管理模式中新增/刪除）
 var DEFAULT_TAGS = [
-  "FGO",　"驅魔",　"手帳",　"紙膠帶和貼紙",　"週邊",　"交換", "遊戲片",　"聯絡賣家plurk@fly811"
+  "FGO",　"驅魔",　"手帳",　"紙膠帶和貼紙",　"週邊",　"交換", "遊戲片",  "其他",　"聯絡賣家plurk@fly811"
 ];
 
 // 商品資料
 var SAMPLE_PRODUCTS = [
 
+   {
+      "id": "displaybox01",
+      "name": "展示盒 $100",
+      "image": "https://images.plurk.com/6i6RGt0jdUieCaUK6F0Yvx.jpg",
+      "description": "        
+        原購買網址(蝦皮)：https://reurl.cc/6G78aO
+        外徑：長30cm、寬10cm、高14.5cm
+        內徑：長28cm、寬8cm、高12cm",
+      "origin": "未知",
+      "purchaseDate": "2024年左右",
+      "damage": "輕微使用痕跡",
+      "tags": [
+        "其他"
+      ],
+      "dateAdded": "2026-03-30",
+      "stores": [
+        {
+          "name": "賣貨便",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "type": "convenient"
+        }
+      ]
+    },
+  
    {
       "id": "mm01",
       "name": "神祕信使聯名框影咖啡V飯友 $50",
@@ -21,9 +45,9 @@ var SAMPLE_PRODUCTS = [
       "purchaseDate": "2024年左右",
       "damage": "輕微使用痕跡",
       "tags": [
-        "周邊"
+        "週邊"
       ],
-      "dateAdded": "2026-03-30",
+      "dateAdded": "2026-04-13",
       "stores": [
         {
           "name": "賣貨便",
