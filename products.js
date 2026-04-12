@@ -11,6 +11,7 @@ var DEFAULT_TAGS = [
 
 // 商品資料
 var SAMPLE_PRODUCTS = [
+  {
 
    {
       "id": "displaybox01",
