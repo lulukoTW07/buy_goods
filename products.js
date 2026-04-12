@@ -11,31 +11,7 @@ var DEFAULT_TAGS = [
 
 // 商品資料
 var SAMPLE_PRODUCTS = [
-  {
 
-   {
-      "id": "displaybox01",
-      "name": "展示盒 $100",
-      "image": "https://images.plurk.com/6i6RGt0jdUieCaUK6F0Yvx.jpg",
-      "description": "        
-        原購買網址(蝦皮)：https://reurl.cc/6G78aO
-        外徑：長30cm、寬10cm、高14.5cm
-        內徑：長28cm、寬8cm、高12cm",
-      "origin": "未知",
-      "purchaseDate": "2024年左右",
-      "damage": "輕微使用痕跡",
-      "tags": [
-        "其他"
-      ],
-      "dateAdded": "2026-03-30",
-      "stores": [
-        {
-          "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
-          "type": "convenient"
-        }
-      ]
-    },
   
    {
       "id": "mm01",
