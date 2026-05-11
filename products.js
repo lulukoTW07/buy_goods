@@ -301,26 +301,7 @@ var SAMPLE_PRODUCTS = [
         }
       ]
     },
-    {
-      "id": "p003",
-      "name": "旅人筆記本（橄欖）$1000",
-      "image": "https://images.plurk.com/39xzyFDj85hRQCCUyeZdeW.jpg",
-      "description": "去年在成田機場多買的，尚未開賣場，有需要請噗浪私訊～",
-      "origin": "日本",
-      "purchaseDate": "2026-08",
-      "damage": "近全新",
-      "tags": [
-        "手帳"
-      ],
-      "dateAdded": "2026-03-19",
-      "stores": [
-        {
-          "name": "噗浪",
-          "url": "https://www.plurk.com/fly811",
-          "type": "default"
-        }
-      ]
-    },
+
      {
       "id": "box1",
       "name": "展示盒 $100",
