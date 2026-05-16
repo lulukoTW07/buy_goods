@@ -12,7 +12,30 @@ var DEFAULT_TAGS = [
 // 商品資料
 var SAMPLE_PRODUCTS = [
 
-  
+     {
+      "id": "771",
+      "name": "御飯糰擦手巾娃包（含手巾） $120",
+      "image": "https://images.plurk.com/58GfeH8UpCesOWvRO8njnJ.jpg",
+      "description": "
+        款式重複，故出售。
+        全新未拆過，若想用其他款式交換也歡迎告訴我。
+        私噗後為您開賣場。
+        ",
+      "origin": "未知",
+      "purchaseDate": "2025年",
+      "damage": "全新",
+      "tags": [
+        "其他"
+      ],
+      "dateAdded": "2026-05-16",
+      "stores": [
+        {
+          "name": "噗浪",
+          "url": "https://www.plurk.com/fly811",
+          "type": "default"
+        }
+      ]
+    },
    {
       "id": "mm01",
       "name": "神祕信使聯名框影咖啡V飯友 $50",
