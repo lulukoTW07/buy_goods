@@ -115,26 +115,6 @@ var SAMPLE_PRODUCTS = [
       ]
     },
     {
-      "id": "p1774869934661",
-      "name": "switch1刀劍亂舞無雙 $500",
-      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301101679582.jpg",
-      "description": "可以拍刀男的胯下的照片的遊戲",
-      "origin": "日本",
-      "purchaseDate": "2022-6",
-      "damage": "輕微使用痕跡",
-      "tags": [
-        "遊戲片"
-      ],
-      "dateAdded": "2026-03-30",
-      "stores": [
-        {
-          "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
-          "type": "convenient"
-        }
-      ]
-    },
-    {
       "id": "p1774820497393",
       "name": "FGO轉蛋橡膠吊飾 $100、$50",
       "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100602011.jpg",
