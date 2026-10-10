@@ -281,26 +281,6 @@ var SAMPLE_PRODUCTS = [
         }
       ]
     },
-    {
-      "id": "p002",
-      "name": "明日方舟-朝隴山山兔毛絨玩偶-凱爾希 $300",
-      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100606763.jpg",
-      "description": "拆過一次，後來就放在袋子裡沒拿出來過了。\n賣貨便有詳細說明。",
-      "origin": "中國",
-      "purchaseDate": "2019年",
-      "damage": "有明顯損傷",
-      "tags": [
-        "週邊"
-      ],
-      "dateAdded": "2026-3-29",
-      "stores": [
-        {
-          "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
-          "type": "convenient"
-        }
-      ]
-    },
 
      {
       "id": "box1",
