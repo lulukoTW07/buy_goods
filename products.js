@@ -89,7 +89,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
           "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2610087635721",
           "type": "convenient"
         }
       ]
@@ -109,7 +109,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
           "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2610087635721",
           "type": "convenient"
         }
       ]
@@ -130,7 +130,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
           "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2610087635721",
           "type": "convenient"
         }
       ]
@@ -172,7 +172,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
          "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2610087635721",
           "type": "convenient"
         }
       ]
@@ -193,7 +193,7 @@ var SAMPLE_PRODUCTS = [
       "stores": [
         {
          "name": "賣貨便",
-          "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2610087635721",
           "type": "convenient"
         }
       ]
