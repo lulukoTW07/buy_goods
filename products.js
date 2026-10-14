@@ -179,8 +179,8 @@ var SAMPLE_PRODUCTS = [
     },
     {
       "id": "p1774820282874",
-      "name": "2024京mafuSNS風格吊飾 $200/個",
-      "image": "https://myship.7-11.com.tw/i/cgdm/GM2506300653196/2603301100603172.jpg",
+      "name": "2024京mafuSNS風格吊飾 $220/個",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2610087635721/2610151391791921.jpg",
       "description": "保存良好，但因為開過所以皆默認有些微損傷。",
       "origin": "日本",
       "purchaseDate": "2024-12",
@@ -298,6 +298,27 @@ var SAMPLE_PRODUCTS = [
         {
           "name": "賣貨便",
           "url": "https://myship.7-11.com.tw/general/detail/GM2506300653196",
+          "type": "convenient"
+        }
+      ]
+    },
+      {
+      "id": "p1774820282874",
+      "name": "FGO16彈趴娃 $200/個",
+      "image": "https://myship.7-11.com.tw/i/cgdm/GM2610087635721/2610081382517042.jpg",
+      "description": "26年10初購入",
+      "origin": "日本",
+      "purchaseDate": "2026-10",
+      "damage": "近全新",
+      "tags": [
+        "FGO",
+        "週邊"
+      ],
+      "dateAdded": "2026-03-29",
+      "stores": [
+        {
+         "name": "賣貨便",
+          "url": "https://myship.7-11.com.tw/general/detail/GM2610087635721",
           "type": "convenient"
         }
       ]
